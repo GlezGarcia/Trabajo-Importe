@@ -1,3 +1,8 @@
+// Encabezado
+// Programador:
+// Fecha:
+// .....
+
 #include <iostream>
 
 using namespace std;
@@ -12,7 +17,7 @@ int main()
 
     if(impbruto<0)
         {
-        cout<<"no es valida, tiene que ser más"<<endl;
+        cout<<"no es valida, tiene que ser mÃ¡s"<<endl;
         }
 
     else
@@ -20,7 +25,7 @@ int main()
     {
         impuesto=impbruto*.16;
         importe_neto=impbruto+impuesto;
-        cout<<"Su impuesto vendría siendo de: $"<< impuesto<<endl;
+        cout<<"Su impuesto vendrÃ­a siendo de: $"<< impuesto<<endl;
         cout<<"Su Importe neto total es de: $"<<importe_neto<<endl;
     }
 
@@ -28,7 +33,7 @@ int main()
     {
         impuesto=impbruto*.10;
         importe_neto=impbruto+impuesto;
-        cout<<"Su impuesto vendría siendo de: $"<< impuesto<<endl;
+        cout<<"Su impuesto vendrÃ­a siendo de: $"<< impuesto<<endl;
         cout<<"Su Importe neto total es de: $"<<importe_neto<<endl;
     }
 
